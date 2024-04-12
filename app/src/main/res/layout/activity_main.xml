@@ -1,0 +1,84 @@
+g<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:padding="5dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello!"
+        android:id="@+id/tvhello"
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plz.Enter Your Name"
+        android:id="@+id/tvname"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/etname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plz. Enter Your College Name"
+        android:id="@+id/tvcollege"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your College Name"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/etcollege"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plz. Write Something About Your College"
+        android:id="@+id/tvaboutcollege"
+        android:layout_margin="10sp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Something About Your College"
+        android:id="@+id/etaboutcollege"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:padding="5sp"
+        android:id="@+id/btnsubmit"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+</LinearLayout>
